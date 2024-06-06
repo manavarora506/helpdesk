@@ -8,11 +8,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 // Create a custom history object
-const history = createBrowserHistory();
 
 const App = () => {
   return (
-    <Router history={history}>
+    <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/admin" element={<AdminPage />} />
