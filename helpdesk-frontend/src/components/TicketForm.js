@@ -1,31 +1,3 @@
-// import React, { useState } from 'react';
-// import { createTicket } from '../api';
-
-// const TicketForm = () => {
-//   const [name, setName] = useState('');
-//   const [email, setEmail] = useState('');
-//   const [description, setDescription] = useState('');
-
-//   const handleSubmit = async (e) => {
-//     e.preventDefault();
-//     await createTicket({ name, email, description });
-//     alert('Ticket submitted successfully');
-//     setName('');
-//     setEmail('');
-//     setDescription('');
-//   };
-
-//   return (
-//     <form onSubmit={handleSubmit}>
-//       <input type="text" value={name} onChange={(e) => setName(e.target.value)} placeholder="Name" required />
-//       <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Email" required />
-//       <textarea value={description} onChange={(e) => setDescription(e.target.value)} placeholder="Description" required />
-//       <button type="submit">Submit Ticket</button>
-//     </form>
-//   );
-// };
-
-// export default TicketForm;
 import React, { useState } from 'react';
 import { createTicket } from '../api';
 
