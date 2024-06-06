@@ -31,3 +31,14 @@ To access the admin panel, navigate to /admin in your browser.
 * Express: Web application framework for Node.js
 * Mongoose: MongoDB object modeling tool designed to work in an asynchronous environment
 * cors: Middleware for enabling CORS (Cross-Origin Resource Sharing) in Express applications
+
+## Loom Video
+
+<div>
+    <a href="https://www.loom.com/share/f8aa5514eaaa4b2580b378f04bc0cf5d">
+      <p>Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/f8aa5514eaaa4b2580b378f04bc0cf5d">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/f8aa5514eaaa4b2580b378f04bc0cf5d-with-play.gif">
+    </a>
+  </div>
