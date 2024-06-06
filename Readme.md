@@ -1,11 +1,9 @@
 # Ticket Management System
 
-This project is a simple ticket management system built using Node.js, Express, and MongoDB. It allows users to create, read, update, and delete tickets through a RESTful API.
+This project is a simple ticket management system built using Node.js, Express, and MongoDB. It allows users to add tickets and admins to see tickets and update the status between new, in progress, and resolved.
 
 ## Admin Panel
-To access the admin panel, navigate to /admin in your browser. This route can be used for administrative purposes, such as managing users, roles, or other administrative tasks.
-
-## API Endpoints
+To access the admin panel, navigate to /admin in your browser. 
 
 ### Create a new ticket
 
