@@ -1,0 +1,35 @@
+{
+  "name": "helpdesk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "asynckit": "^0.4.0",
+    "axios": "^1.7.2",
+    "combined-stream": "^1.0.8",
+    "delayed-stream": "^1.0.0",
+    "follow-redirects": "^1.15.6",
+    "form-data": "^4.0.0",
+    "js-tokens": "^4.0.0",
+    "loose-envify": "^1.4.0",
+    "mime-db": "^1.52.0",
+    "mime-types": "^2.1.35",
+    "proxy-from-env": "^1.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router": "^6.23.1",
+    "react-router-dom": "^6.23.1",
+    "scheduler": "^0.23.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix helpdesk-frontend && npm run build --prefix helpdesk-frontend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
