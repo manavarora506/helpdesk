@@ -1,6 +1,8 @@
 import axios from 'axios';
 
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:8000/api/tickets';
+const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:8002/api/tickets';
+
+console.log(API_URL)
 
 export const getTickets = async () => {
   return axios.get(API_URL);
